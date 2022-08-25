@@ -15,4 +15,4 @@ jobs:
 
       - name: Show github context directly
         run: | 
-          echo 'Full github context: ${{ toJSON(github) }}'
+          echo "Full github context: ${{ toJSON(github) }}"
